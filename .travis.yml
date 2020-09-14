@@ -7,4 +7,5 @@ jdk:
   - oraclejdk8
 
 script:
+  - echo hi
   - ps
