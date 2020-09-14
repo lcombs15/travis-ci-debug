@@ -1,10 +1,11 @@
+language: android
 sudo: required
 env:
   global:
     - SH=bash
 
 jdk:
-  - oraclejdk9
+  - oraclejdk8
 
 script:
   - echo hi
