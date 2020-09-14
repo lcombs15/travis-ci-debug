@@ -1,0 +1,10 @@
+sudo: required
+env:
+  global:
+    - SH=bash
+
+jdk:
+  - oraclejdk8
+
+script:
+  - ps
